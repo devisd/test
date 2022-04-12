@@ -4,13 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>ZECURION</title>
 </head>
 <body>
-
-
-    <script src="./js/index.js"></script>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a href="#" class="logo">
+                    <img src="./img/Vector.png" alt="">
+                </a>
+                <div class="user__panel">
+                    <a href="#">
+                        <svg class="user__icon" width="32" height="32">
+                            <use href="./img/icons.svg#user-photo"></use>
+                        </svg>
+                    </a>
+                    <a href="#">Имя Фамилия</a>
+                    <a href="#"><img src="./img/exit-btn.png" alt="выйти из профиля"></a>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <a class="personal__link" href="#">Сотрудники</a>
+                <a href="#">
+                    <svg class="personal__link-icon" width="5" height="9">
+                        <use href="./img/icons.svg#arrow-right-gray"></use>
+                    </svg>
+                </a>
+                <p class="personal__name">Виктория Беляева, belyeva@companyname.com</p>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="personal__full-stat">
+            <div class="personal__header">
+                <div class="personal__avatar">
+                    <img src="./img/avatar2.jpg" alt="">
+                    <h1 class="personal__name">Виктория Беляева</h1>
+                    <p class="personal__position">Менеджер, Отдел продаж</p>
+                </div>
+                <div class="personal__active">
+                    <h2 class="active__today">Последняя активность <span>сегодня в 12:22</span></h2>
+                    <div class="active__index">
+                        <h2 class="active__index-text">Уровень риска</h2>
+                        <span class="active__index-point">157</span>
+                        <p class="active__index-percent">-100%</p>
+                    </div>
+                    <div class="active__index">
+                        <h2 class="active__index-text">Продуктивность</h2>
+                        <span class="active__index-point">86%</span>
+                        <p class="active__index-percent">+3%</p>
+                    </div>
+                    <div class="active__index">
+                        <h2 class="active__index-text">Индекс активности</h2>
+                        <span class="active__index-point">2.4%</span>
+                        <p class="active__index-percent">+14%</p>
+                    </div>
+                    <div class="personal__header-settings">
+                        <a href="#">
+                            <svg class="user__icon" width="17" height="16">
+                                <use href="./img/icons.svg#checkbox"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="user__icon" width="20" height="13">
+                                <use href="./img/icons.svg#video"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="user__icon" width="22" height="18">
+                                <use href="./img/icons.svg#device"></use>
+                            </svg>
+                        </a>
+                        <a href="#">
+                            <svg class="user__icon" width="21" height="18">
+                                <use href="./img/icons.svg#list"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside class="aside">
+        <input class="fast__serch" type="text" name="search" id="search" placeholder="Быстрый поиск...">
+        <div class="personal__card">
+            <img src="./img/avatar1.jpg" alt="">
+            <h2 class="personal__name">Анна Иванова</h2>
+            <p class="personal__position">Менеджер, Отдел продаж</p>
+            <span class="personal__work-status fired">на увольнении</span>
+            <span class="personal__point">12</span>
+        </div>
+        <div class="personal__card">
+            <img src="./img/avatar2.jpg" alt="">
+            <h2 class="personal__name">Виктория Беляева</h2>
+            <p class="personal__position">Менеджер, Отдел продаж</p>
+            <span class="personal__work-status vacation">в отпуске</span>
+            <span class="personal__point">247</span>
+        </div>
+        <div class="personal__card">
+            <img src="./img/avatar3.jpg" alt="">
+            <h2 class="personal__name">Виктор Сурков</h2>
+            <p class="personal__position">Менеджер, Отдел продаж</p>
+            <span class="personal__point">0</span>
+        </div>
+    </aside>
+    <!-- <script src="./js/index.js"></script> -->
 </body>
 </html>
