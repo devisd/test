@@ -1,22 +1,22 @@
 {
-  "name": "moviemania",
+  "name": "test",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /MovieMania/"
+    "build": "parcel build src/*.html --public-url /test/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devisd/MovieMania.git"
+    "url": "git+https://github.com/devisd/test.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/devisd/MovieMania/issues"
+    "url": "https://github.com/devisd/test/issues"
   },
-  "homepage": "https://github.com/devisd/MovieMania",
+  "homepage": "https://github.com/devisd/test",
   "devDependencies": {
     "axios": "^0.27.2",
     "handlebars": "^4.7.7",
